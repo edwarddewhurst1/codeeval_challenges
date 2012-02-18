@@ -6,7 +6,7 @@ if __name__ == "__main__":
     else:
         with open(sys.argv[1], "r") as f:
             for line in f:
-                print sum([int(x) for x in bin(int(line))[2:]]) / 1
+                print sum([int(x) for x in bin(int(line))[2:]])
                 
 
     sys.exit(0)
